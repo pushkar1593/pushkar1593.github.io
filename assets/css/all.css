@@ -584,6 +584,8 @@ body {
   color: #666;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%; }
+  body h3 {
+    font-size: 20px; }
 
 svg {
   height: 100%;
@@ -605,8 +607,9 @@ fieldset {
 section:nth-child(odd) {
   background: #fff;
   padding-bottom: 100px; }
-  section:nth-child(odd) h3 {
-    color: #ffb565; }
+
+section:nth-child(even) h3 {
+  color: #ffb565; }
 
 body nav a, h3, header nav a, header .kicker, footer .lockup .content-wrap a {
   font-size: 14px;
@@ -737,7 +740,7 @@ footer {
   .face-lockup [class^="icon-"] {
     height: 100px;
     width: 100px;
-    background: #fff;
+    background: #e5eaee;
     border-radius: 50%; }
     .face-lockup [class^="icon-"] path {
       fill: #fa9065; }
@@ -791,7 +794,7 @@ footer {
   width: 70%;
   padding: 0 20px;
   margin: 50px auto;
-  font-size: 24px;
+  font-size: 22px;
   text-align: center;
   font-weight: 300; }
 
