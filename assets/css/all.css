@@ -695,6 +695,9 @@ footer {
         footer .lockup .content-wrap a:hover {
           color: rgba(0, 0, 0, 0.7); }
 
+h3 {
+  margin: 0 0 0 0; }
+
 .face-lockup {
   max-width: 780px;
   list-style-type: none;
