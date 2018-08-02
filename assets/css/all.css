@@ -744,7 +744,7 @@ h3 {
   .face-lockup [class^="icon-"] {
     height: 50px;
     width: 50px;
-    background: white;
+    background: #e5eaee;
     border-radius: 50%; }
     .face-lockup [class^="icon-"] path {
       fill: #fa9065; }
